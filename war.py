@@ -49,7 +49,7 @@ d8 = list(range(1, 9))
 #d10 = list(range(1, 11))
 #d12 = list(range(1, 13))
 #d20 = list(range(1, 21))
-avioes = [0, 0, 0, 1, 2]
+avioes = [0, 0, 0, 1, 2, 3]
 
 rolagem = 0
 
