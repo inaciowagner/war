@@ -11,7 +11,7 @@ df_placar = pd.DataFrame([s1,s2])
 df_placar = df_placar.T
 
 # configuração1
-st.set_page_config(page_title="War ", page_icon="🎲", layout="centered", initial_sidebar_state="expanded")
+st.set_page_config(page_title="War", initial_sidebar_state="expanded", page_icon="🎲", layout="centered")
 
 
 
