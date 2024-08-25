@@ -25,6 +25,6 @@ st.html("<img src='https://i.pinimg.com/564x/25/cd/d4/25cdd4a1905f515995a57df6e3
 
 st.dataframe(df_placar)
 st.markdown("""
-            "Você precisa levar o oponente até uma floresta escura e profunda na qual 2+2 = 5 é o único caminho que leva à saída e que só tem espaço para um."
+            *"Você precisa levar o oponente até uma floresta escura e profunda na qual 2+2 = 5 é o único caminho que leva à saída e que só tem espaço para um."*
             -- Mikhail Tal - Grande Mestre de Xadrez
             """)
