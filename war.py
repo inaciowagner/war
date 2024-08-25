@@ -68,7 +68,7 @@ quantos_dados = [1, 2, 3]
 
 # Inputs
 with st.sidebar:
-    st.html("<h2>Dados Simulater Tabajara</h2>")
+    st.html("<h2>Dados Simulator Tabajara</h2>")
     tipo_dado = st.radio("Escolha o tipo de dado:", list(sacola_de_dados.keys()))
     quantos = st.radio("Quantos dados?", quantos_dados)
     
