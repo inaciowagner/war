@@ -16,7 +16,7 @@ st.set_page_config(page_title="War ", page_icon="🎲", layout="centered")
 
 # título
 
-st.html("<img src='https://i.pinimg.com/564x/25/cd/d4/25cdd4a1905f515995a57df6e3737b8e.jpg' alt='dados' width='80%'>")
+st.html("<img src='https://i.pinimg.com/564x/25/cd/d4/25cdd4a1905f515995a57df6e3737b8e.jpg' alt='dados' width='90%'>")
 
 
 
