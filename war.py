@@ -80,3 +80,37 @@ with st.sidebar:
 # Outputs
 #if rolagem != 0:
 #    st.markdown(f"### Resultados das rolagens: {rolagem}")
+
+st.markdown('''
+# RESUMO DE REGRA
+
+> A partir da segunda rodada, cada jogador, na sua vez, cumpre as seguintes etapas:
+
+1) Recebe novos exércitos
+
+* em função dos territórios possuidos
+
+* em função dos CE's possuídos
+
+* se possuir um continente inteiro, de acordo com a TABELA
+
+* em função da troca de cartas
+
+2) Coloca esses exércitos no tabuleiro
+
+* de acordo com sua estratégia
+
+3) Recebe aviões
+
+* em função dos CE's possuídos, e os coloca em sua base aérea
+
+* em função da troca de cartas (para efetuar ataques)
+
+4) Efetua seus ataques terrestres e aéreos
+
+* se desejar
+
+5) Recebe uma carta de território
+
+* se conquistar no mínimo um território (o número de cartas em sua mão NÃO pode exceder 5 cartas).
+''')
