@@ -116,7 +116,62 @@ st.markdown('''
 ''')
 # Manual de Regras 
 st.markdown('''
-1. Cada jogador pega um dado e o lança. Aquele que obtiver o ponto mais alto será o dis- tribuidor, cabendo-lhe a tarefa de separar as 12 cartas dos Centros Estratégicos, embaralhá-las e distribuí-las, uma a uma, a todos os participantes, começando por si próprio e seguindo pelo jo-
+# WAR-II
+
+## REGRAS
+
+Este é um jogo de raciocínio e estratégia do qual podem participar de três a seis jogadores.
+
+Vence o jogo aquele que atingir primeiro seu objetivo. Recomenda-se que se tente jogar à medida que se vai lendo as regras, de modo a facilitar a compreen
+
+são dos mecanismos de WAR-II.
+
+1- COMPONENTES DO JOGO O jogo compõe-se de:
+
+Tabuleiro:
+
+Um tabuleiro com um mapa representando os 6 continentes, cada um deles dividido em um determinado número de territórios. Os 12 territórios contendo o simbolo são chamados de Centros Estratégicos (CE). Estão ainda impressas no tabuleiro 4 tabelas indicando as "maio- rias" e "totalidades" dos continentes (ver detalhes adiante) e 6 áreas representando bases ae- reas.
+
+Peças:
+
+6 caixas contendo 6 conjuntos de peças de cor diferente. Cada conjunto é composto de:
+
+e Fichas pequenas representando 1 exército cada uma;
+
+Fichas grandes representando 10 exércitos cada uma,
+
+Dez aviões (bombardeiros);
+
+0
+
+Um Centro de Informação (CI).
+
+Cartas:
+
+20 "cartas-objetivos", representando os vários objetivos a serem sorteados pelos participantes,
+
+61 cartas de troca, transporte e ataque aéreo, sende:
+
+28 cartas com números;
+
+33 cartas representando continentes ou territórios (isolados ou agrupados), sendo que 12 destas cartas representam Centros Estratégicos CE (com o simbolo já mencionado).
+
+Dados:
+
+8 dados, sendo:
+
+3 vermelhos, usados para os ataques; 3 amarelos, usados para as defesas;
+
+1 dado, usado para ataque aéreo, com três faces com bombas (1,2,3), representando seu
+
+poder de destruição de exércitos e très faces lisas; 1 dado, usado para defesa antiaérea, com três faces indicando quantos bombardeiros foram
+
+atingidos (
+
+1 bombardeiro atingido) e três faces lisas.
+
+2-DISTRIBUIÇÃO DE PEÇAS E TERRITÓRIOS Cada jogador escolhe o conjunto de peças da cor que the agrade. Esta escolha pode ser feita por sorteio ou de comum acordo.
+ Cada jogador pega um dado e o lança. Aquele que obtiver o ponto mais alto será o dis- tribuidor, cabendo-lhe a tarefa de separar as 12 cartas dos Centros Estratégicos, embaralhá-las e distribuí-las, uma a uma, a todos os participantes, começando por si próprio e seguindo pelo jo-
 
 gador à sua esquerda. Após a distribuição, os jogadores colocam 2 exércitos em cada um dos Centros Estratégicos
 
