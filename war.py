@@ -28,7 +28,7 @@ df_placar['Dia'] = df_placar['Data'].dt.strftime('%d/%m/%Y')
 df_placar = df_placar.drop("Data", axis=1)
 # df.rename(columns={'Data_Formatada': 'Data'}, inplace=True)
 #df_placar.rename(columns={"Dia": "Data"})
-ordem_colunas = ["Dia", 'César', 'Cezimar', 'Inácio', 'Lindemberg']
+ordem_colunas = ["Dia", 'César', 'Cezimar', 'Ináico', 'Lindemberg']
 df_placar = df_placar.reindex(columns=ordem_colunas)
 
 
