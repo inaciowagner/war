@@ -18,27 +18,25 @@ st.set_page_config(page_title="War", initial_sidebar_state="expanded", page_icon
 
 # título
 
+# imagem
 st.html("<img src='https://i.pinimg.com/564x/25/cd/d4/25cdd4a1905f515995a57df6e3737b8e.jpg' alt='dados' width='90%'>")
 
 
 
 # tabela ->
 df_placar = pd.read_excel("placar.xlsx")
-df_placar['Dia'] = df_placar['Data'].dt.strftime('%d/%m/%Y')
-df_placar = df_placar.drop("Data", axis=1)
-# df.rename(columns={'Data_Formatada': 'Data'}, inplace=True)
-#df_placar.rename(columns={"Dia": "Data"})
-ordem_colunas = ["Dia", 'César', 'Cezimar', 'Ináico', 'Lindemberg']
-df_placar = df_placar.reindex(columns=ordem_colunas)
-
+#df_placar['Dia'] = df_placar['Data'].dt.strftime('%d/%m/%Y')
+#df_placar = df_placar.drop("Data", axis=1)
+#ordem_colunas = ["Dia", 'César', 'Cezimar', 'Ináico', 'Lindemberg']
+#df_placar = df_placar.reindex(columns=ordem_colunas)
 
 st.dataframe(df_placar)
-st.line_chart(df_placar, x="Dia")
-df_placar.info()
-#df_placar = pd.reset_in
-#st.dataframe(df_placar)
-st.html("<hr/>")
-#st.line_chart(df_placar, y="Datas", x="Ranking")
+
+#grafico
+st.line_chart(df_placar, x="Data")
+
+st.html("<hr/>") # linha 
+
 st.markdown("""
             *"Você precisa levar o oponente até uma floresta escura e profunda na qual 2+2 = 5 é o único caminho que leva à saída e que só tem espaço para um."*
             -- Mikhail Tal - Grande Mestre de Xadrez
